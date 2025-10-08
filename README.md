@@ -39,10 +39,10 @@ Synthetic data helps ensure **data privacy** while maintaining the statistical c
 
 
 ##  Results Summary
-| Model | Data Type | Accuracy |
-|--------|------------|-----------|
-| Random Forest | Real | 0.4387% | 
-| XGBoost | Synthetic |0.4487	% |
-| LightGBM | Hybrid | 0.4579% | 
+| Model | Data Type | Accuracy |Top 3 Accuracy|
+|--------|------------|-----------|------------|
+| Random Forest | Augmented data  | 0.4387% |0.9004 |
+| XGBoost | Augmented data  |0.4487	% |0.9050|
+| LightGBM | Augmented data  | 0.4579% |0.9059|
 
 
