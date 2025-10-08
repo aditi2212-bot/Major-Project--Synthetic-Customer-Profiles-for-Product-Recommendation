@@ -3,14 +3,14 @@
 **Mentor:** Ms. Abhipsa Guha  
 **Team Members:** Aditi • Disha • Aarayan • Himanshu • Lakshya  
 
----
+
 
 ##  Project Overview
 This project focuses on generating synthetic customer data using **CTGAN (Generative AI)** and evaluating its performance in **product recommendation models** such as Random Forest, XGBoost, and LightGBM.
 
 Synthetic data helps ensure **data privacy** while maintaining the statistical characteristics of real data.
 
----
+
 
 ##  Workflow
 1. Data Preprocessing & Cleaning  
@@ -19,7 +19,7 @@ Synthetic data helps ensure **data privacy** while maintaining the statistical c
 4. Model Training & Evaluation  
 5. Result Visualization & Insights  
 
----
+
 
 ##  Tools & Technologies
 | Category | Tools |
@@ -30,14 +30,14 @@ Synthetic data helps ensure **data privacy** while maintaining the statistical c
 | Visualization | Plotly Express, Seaborn |
 | Models | Random Forest, XGBoost, LightGBM, CTGAN |
 
----
+
 
 ##  Dataset
 - **Source:** shopping_trends_updated.csv (custom dataset)
 - **Synthetic Generation:** CTGAN trained for 50 epochs
 - **Merged Data Size:** ~8,000 records
 
----
+
 
 ##  Results Summary
 | Model | Data Type | Accuracy | F1-Score |
