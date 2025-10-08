@@ -31,20 +31,18 @@ Synthetic data helps ensure **data privacy** while maintaining the statistical c
 | Models | Random Forest, XGBoost, LightGBM, CTGAN |
 
 
-
 ##  Dataset
 - **Source:** shopping_trends_updated.csv (custom dataset)
-- **Synthetic Generation:** CTGAN trained for 50 epochs
+- **Synthetic Generation:** CTGAN trained for 500 epochs
 - **Merged Data Size:** ~8,000 records
 
 
 
 ##  Results Summary
-| Model | Data Type | Accuracy | F1-Score |
-|--------|------------|-----------|-----------|
-| Random Forest | Real | 78% | 0.74 |
-| XGBoost | Synthetic | 83% | 0.79 |
-| LightGBM | Hybrid | 85% | 0.81 |
+| Model | Data Type | Accuracy |
+|--------|------------|-----------|
+| Random Forest | Real | 0.4387% | 
+| XGBoost | Synthetic |0.4487	% |
+| LightGBM | Hybrid | 0.4579% | 
 
----
 
